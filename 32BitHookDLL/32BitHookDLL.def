@@ -1,0 +1,7 @@
+LIBRARY 32BitHookDLL
+SECTIONS .sd_32bithookdll SHARED READ WRITE
+EXPORTS
+	StartMonitoring @1
+	StopMonitoring @2
+	GetTextBuffer @3
+	GetKeyBuffer @4
