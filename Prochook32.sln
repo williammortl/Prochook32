@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prochook32", "Prochook32\Prochook32.csproj", "{32710215-CFF7-436E-9ECC-6814858D56B4}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{B5E92D7E-A
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32BitHookDLL", "32BitHookDLL\32BitHookDLL.vcxproj", "{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppForTesting", "AppForTesting\AppForTesting.csproj", "{4E555BE1-F677-4933-8AF0-97FB28C563B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,12 +50,29 @@ Global
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Debug|x86.ActiveCfg = Debug|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Debug|x86.Build.0 = Debug|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Any CPU.Build.0 = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Win32.ActiveCfg = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|Win32.Build.0 = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|x86.ActiveCfg = Release|Win32
 		{82AAD7F9-4CB8-4880-9EBA-2BDE15ABB4DB}.Release|x86.Build.0 = Release|Win32
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|Win32.Build.0 = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Win32.ActiveCfg = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|Win32.Build.0 = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E555BE1-F677-4933-8AF0-97FB28C563B6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
